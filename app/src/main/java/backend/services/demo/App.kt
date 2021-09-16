@@ -16,8 +16,7 @@ class App : Application() {
                 "https://doorbash.ir/api",
                 10,
                 false,
-                R.drawable.btn_star,
-                MainActivity::class.java
+                R.drawable.btn_star
             )
         )
         BackendServicesNotificationsClient.enqueueWorker(this)
